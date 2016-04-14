@@ -1,13 +1,16 @@
 # WHC_BannerKit
 
-##### 联系QQ: 712641411
-##### 开发作者: 吴海超
-##### iOS技术交流群: 302157745
+#### 联系QQ: 712641411
+#### 开发作者: 吴海超
+#### iOS技术交流群: 302157745
 
-##### WHC_BannerKit 轻量级图片轮播组件(高效,简单)
-##### 最新的自动布局框架：https://github.com/netyouli/WHC_AutoLayoutKit
+#### WHC_BannerKit 轻量级图片轮播组件(高效,简单)
+#### 最强大的自动布局框架：https://github.com/netyouli/WHC_AutoLayoutKit
 
-##### 使用例子
+### 使用效果
+![](https://github.com/netyouli/WHC_BannerKit/blob/master/show.gif)
+
+### 使用例子
 ```objective-c
 /// 轮播本地图片
 _banner = [[WHC_Banner alloc] initWithFrame:CGRectMake(0, 64, CGRectGetWidth([UIScreen mainScreen].bounds), bannerHeight)];
@@ -45,5 +48,5 @@ _banner.delegate = self;
 
 
 ```
-![](https://github.com/netyouli/WHC_AutoLayoutKit/blob/master/Gif/f.gif)
+
 
